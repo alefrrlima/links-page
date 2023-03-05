@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+   --color01: #2C3333;
+   --color02: #2E4F4F;
+   --color03: #12A4AA;
+   --color04: #CBE4DE;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   appearance: none;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.6rem;
+   color: var(--color01);
+}
+
+main {
+   display: flex;
+   flex-direction: row;
+}
+
+h1 {
+   font-size: 3.5rem;
+   color: var(--color01);
+   font-weight: bold;
+   text-align: left;
+   max-width: 50rem;
+}
+
+h2 {
+   font-size: 2rem;
+   color: var(--color02);
+   font-weight: 400;
+   text-align: left;
+   max-width: 50rem;
+}
+
+h3 {
+   font-size: 1.5rem;
+   color: var(--color04);
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+h4 {
+   font-size: 1.6rem;
+   color: var(--color01);
+   font-weight: bold;
+   text-align: left;
+   margin-bottom: 0.2rem;
+}
+
+p {
+   font-size: 1.4rem;
+   color: var(--color01);
+   font-weight: 400;
+   text-align: left;
+}
+
+#lside {
+   height: 100vh;
+   width: 50%;
+   background-color: var(--color04);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#lside-main-icon {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+#lside-text-content {
+   display: flex;
+   flex-direction: column;
+   max-width: 500px;
+   height: 30.8rem;
+   justify-content: space-between;
+}
+
+#lside-third-text {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 36rem;
+}
+
+#rside {
+   height: 100vh;
+   width: 50%;
+   background-color: var(--color01);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#rside-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#rside-button-container {
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   max-width: 30rem;
+   justify-content: space-between;
+   height: 23.3rem;
+}
+
+.btn {
+   width: 30rem;
+   height: 6rem;
+   border-radius: 1rem;
+   padding: 1rem;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   background-color: var(--color04);
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   transition: 0.5s;
+}
+
+.btn:hover, .btn:focus {
+   background-color: var(--color03);
+}
+
+.btn:active {
+   background-color: var(--color02);
+}
+
+.btn-image {
+   margin-right: 1rem;
+}
+
+.btn-text-content {
+   display: flex;
+   flex-direction: column;
+}
