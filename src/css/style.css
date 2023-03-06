@@ -3,7 +3,7 @@
 :root{
    --color01: #2C3333;
    --color02: #2E4F4F;
-   --color03: #12A4AA;
+   --color03: #63d4d8;
    --color04: #CBE4DE;
 }
 
@@ -198,17 +198,34 @@ p {
    #lside {
       width: 100%;
       height: fit-content;
+      padding: 1.8rem 1rem 2.5rem 1rem;
    }
-
 
    #rside {
       width: 100%;
       height: fit-content;
+      padding: 0.5rem 1rem 1.8rem 1rem;
    }
 
    #lside-main-icon {
-      position: absolute;
-      top: 1rem;
+      position: static;
+      width: 4rem;
+      height: 4rem;
+      margin-bottom: 2.5rem;
+   }
+
+   #lside-text-content {
+      height: 30rem;
+   }
+
+   #lside-third-text {
+      width: 28rem;
+   }
+
+   #lside-third-text img {
+      height: 2rem;
+      width: 2rem;
+      transform: rotate(90deg);
    }
 
 }
