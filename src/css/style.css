@@ -80,6 +80,7 @@ p {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   padding: 1rem;
 }
 
 #lside-main-icon {
@@ -111,6 +112,7 @@ p {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   padding: 1rem;
 }
 
 #rside-content {
@@ -157,4 +159,40 @@ p {
 .btn-text-content {
    display: flex;
    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+   #lside-text-content {
+      max-width: 300px;
+      height: 350px;
+   }
+
+   h1 {
+      font-size: 2.4rem;
+   }
+
+   h2 {
+      font-size: 1.8rem;
+   }
+
+   #lside-third-text {
+      max-width: 30rem;
+   }
+
+   #lside-third-text h2 {
+      font-size: 1.6rem;
+   }
+
+   #lside-third-text img {
+      height: 2.5rem;
+      width: 2.5rem;
+   }
+}
+
+@media (max-width: 640px) {
+
+   main {
+      flex-direction: column;
+   }
+   
 }
